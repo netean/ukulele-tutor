@@ -110,6 +110,16 @@ local storage.
 
 <img width="1890" height="956" alt="image" src="https://github.com/user-attachments/assets/941c54dd-8b7c-4154-95a6-9c4189b6e4d6" />
 
+<img width="1839" height="823" alt="image" src="https://github.com/user-attachments/assets/f21bda2c-08b0-48e9-82f1-1fcee9c93d62" />
+
+<img width="1839" height="823" alt="image" src="https://github.com/user-attachments/assets/222dca11-802e-47a4-acc6-1c09c31b304d" />
+
+<img width="1839" height="823" alt="image" src="https://github.com/user-attachments/assets/e46a22ca-9d8d-42d7-bda6-e57b44ad64c8" />
+
+
+The Tuner
+<img width="1839" height="823" alt="image" src="https://github.com/user-attachments/assets/69d30a31-20df-412e-bc9c-72cac10a10be" />
+
 
 
 ## Credits
