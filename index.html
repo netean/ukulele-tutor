@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ukulele Trainer</title>
+  <meta name="description" content="An interactive, left-handed-friendly ukulele course for complete beginners, with a built-in microphone tuner.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 30c10 0 14 6 12 12-1 3-3 4-2 7 3 6 1 13-10 13s-13-7-10-13c1-3-1-4-2-7-2-6 2-12 12-12z' fill='%23d9622b'/%3E%3Crect x='29' y='4' width='6' height='30' rx='2' fill='%234a2f1d'/%3E%3Ccircle cx='32' cy='44' r='4' fill='%232a1f17'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="menu-btn" class="icon-btn" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <a class="brand" href="#/">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 30c10 0 14 6 12 12-1 3-3 4-2 7 3 6 1 13-10 13s-13-7-10-13c1-3-1-4-2-7-2-6 2-12 12-12z" fill="var(--accent)"/><rect x="29" y="4" width="6" height="30" rx="2" fill="var(--wood)"/><circle cx="32" cy="44" r="4" fill="var(--ink)"/></svg>
+      <span>Ukulele Trainer</span>
+    </a>
+    <div class="top-controls">
+      <label class="switch" title="Mirror chord charts and fretboards for left-handed players">
+        <input type="checkbox" id="lefty" checked>
+        <span class="track"><span class="thumb"></span></span>
+        <span class="switch-label">Left-handed</span>
+      </label>
+      <label class="vol" title="Volume">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 5V4L8 9H4z" fill="currentColor"/></svg>
+        <input type="range" id="volume" min="0" max="1" step="0.05" value="0.8" aria-label="Volume">
+      </label>
+      <select id="theme" aria-label="Colour theme">
+        <option value="auto">Auto theme</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </div>
+  </header>
+  <nav id="nav" class="sidebar" aria-label="Course sections"></nav>
+  <div class="nav-scrim" onclick="document.body.classList.remove('nav-open')"></div>
+  <main id="content" class="content" tabindex="-1"></main>
+
+  <script src="vendor/vexflow.js"></script>
+  <script src="js/theory.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/diagrams.js"></script>
+  <script src="js/notation.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/sections/01-getting-started.js"></script>
+  <script src="js/sections/02-strings.js"></script>
+  <script src="js/sections/03-chords.js"></script>
+  <script src="js/sections/04-reading.js"></script>
+  <script src="js/sections/05-major-minor.js"></script>
+  <script src="js/sections/06-scales.js"></script>
+  <script src="js/tuner.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
