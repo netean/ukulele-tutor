@@ -1,10 +1,36 @@
 # Ukulele Trainer
 
+### About
+
+I have been meaning to sit down and teach myself how to play the Ukulele I bought during Covid.
+(Still haven't started)
+
+But as an experiment one evening I wondered if Claude Opus 5.5 could build me a trainer. Didn't really think it would do as good as job as it has done.
+Specifically one that would accommodate my left handed Concert Ukulele and provide some basic musical training (I used to know how to read music but need a quick refresher)
+One long prompt into Claude Code and in less than hour this was create, tested and working.
+
+It also needed to have the ability to help me tune it.
+
+All runs in html, with a python server backend if necessary.
+
+
+#### Summary
+
+One long prompt and <60 minutes of Claude ruminating to get this.
+
+
+
+
+### Description 
+
 An interactive ukulele course for complete beginners, drawn for **left-handed players**
 (with a switch for a right-handed view), plus a microphone **tuner** that handles every
 common ukulele type — including 4- and 5-string bass ukuleles.
 
 It's a self-contained HTML app: no internet connection, accounts or installs needed.
+
+See it in Action on Github Pages
+https://netean.github.io/ukulele-tutor
 
 ## Running it (Linux)
 
@@ -78,6 +104,13 @@ install-desktop-entry.sh    adds a menu entry
 
 Progress, theme, volume and the left/right-handed setting are saved in the browser's
 local storage.
+
+### Screenshots
+<img width="1890" height="924" alt="image" src="https://github.com/user-attachments/assets/480f91d2-da62-4835-a35d-0ceee49ddd0e" />
+
+<img width="1890" height="956" alt="image" src="https://github.com/user-attachments/assets/941c54dd-8b7c-4154-95a6-9c4189b6e4d6" />
+
+
 
 ## Credits
 
