@@ -6,13 +6,18 @@ I have been meaning to sit down and teach myself how to play the Ukulele I bough
 (Still haven't started)
 
 But as an experiment one evening I wondered if Claude Opus 5.5 could build me a trainer. Didn't really think it would do as good as job as it has done.
+
 Specifically one that would accommodate my left handed Concert Ukulele and provide some basic musical training (I used to know how to read music but need a quick refresher)
-One long prompt into Claude Code and in less than hour this was create, tested and working.
+One long prompt into Claude Code and in less than hour this was created, tested and working.
 
 It also needed to have the ability to help me tune it.
 
 All runs in html, with a python server backend if necessary.
 
+
+### just to be very clear, I haven't written a single line of code nor have I reprompted Claude to do anything beyond the initial prompt.
+
+It was created as an experiment, a simple proof of concept if you will. It just ended up being quite excellent.
 
 #### Summary
 
