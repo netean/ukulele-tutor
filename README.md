@@ -12,10 +12,10 @@ One long prompt into Claude Code and in less than hour this was created, tested 
 
 It also needed to have the ability to help me tune it.
 
-All runs in html, with a python server backend if necessary.
+All runs in html, with a python server backend if necessary and scales really well to work on a phone screen.
 
 
-### just to be very clear, I haven't written a single line of code nor have I reprompted Claude to do anything beyond the initial prompt.
+#### Just to be very clear, I haven't written a single line of code nor have I reprompted Claude to do anything beyond the initial prompt.
 
 It was created as an experiment, a simple proof of concept if you will. It just ended up being quite excellent.
 
